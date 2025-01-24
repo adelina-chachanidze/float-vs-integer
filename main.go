@@ -15,6 +15,6 @@ func floatVsInteger(i int, f float32) string {
 }
 
 func main () {
-	var answer  = IntVsFloat (8, 7.2)
+	var answer  = floatVsInteger (8, 7.2)
 	fmt.Println(answer)
 }
